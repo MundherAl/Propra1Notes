@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Propra/Notes/Week 1\"",
+      "color": {
+        "a": 1,
+        "rgb": 6084225
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 2\"",
+      "color": {
+        "a": 1,
+        "rgb": 6055126
+      }
+    },
+    {
+      "query": "file:\"Learning Goals\"",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 3\"",
+      "color": {
+        "a": 1,
+        "rgb": 6403818
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 4\"",
+      "color": {
+        "a": 1,
+        "rgb": 8206784
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 5\"",
+      "color": {
+        "a": 1,
+        "rgb": 16743168
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 6\"",
+      "color": {
+        "a": 1,
+        "rgb": 14396247
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 7\"",
+      "color": {
+        "a": 1,
+        "rgb": 13123932
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 8\"",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0.4,
+  "nodeSizeMultiplier": 1.68495154507223,
+  "lineSizeMultiplier": 0.671920521728531,
+  "collapse-forces": false,
+  "centerStrength": 0.495032608033157,
+  "repelStrength": 11.2281343329067,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.8854989543150492,
+  "close": true
+}

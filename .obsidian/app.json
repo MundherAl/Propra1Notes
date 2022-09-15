@@ -1,0 +1,17 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "spellcheckDictionary": [
+    "superclass",
+    "superclass",
+    "Liskov",
+    " Lisko",
+    "varargs",
+    "LCHC",
+    "gradle",
+    "classpath",
+    "enums",
+    "Mockito"
+  ]
+}

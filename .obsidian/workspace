@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "78679ba9f0a7fce5",
+    "type": "split",
+    "children": [
+      {
+        "id": "352a70c8b322dbd3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Propra/Notes/Week 9/Mockito.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4e215d1617e816f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8608b97b23a17722",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab3fe7cdef7cd09e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "298eb48d6de56002",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7c3dbdfdcd80c4d4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.50868225097656
+  },
+  "right": {
+    "id": "37a03ff127527d16",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7b0926fc97be219",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d082aae60e819376",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Propra/Notes/Week 9/Mockito.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ccfb9fccf11c9015",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Propra/Notes/Week 9/Mockito.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49c2c0b7724c9e5b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2b6269179a23579e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Propra/Notes/Week 9/Mockito.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "352a70c8b322dbd3",
+  "lastOpenFiles": [
+    "Excalidraw/Test Double Example.md",
+    "Propra/Notes/Week 9/Mockito.md",
+    "Propra/Notes/Week 8/Class Inheritence.md",
+    "Propra/Notes/Week 8/Declared and Actual Types.md",
+    "Propra/Notes/Week 8/SOLID.md",
+    "Propra/Notes/Week 8/Week 8.md",
+    "Propra/Notes/Week 9/Week 9.md",
+    "Propra/Notes/Week 7/Domain Driven Design.md",
+    "Propra/Notes/Week 7/Modularity.md",
+    "Propra/Learning Goals.md"
+  ]
+}
