@@ -27,33 +27,80 @@ Syntax: `Object myObject = mock(Object.class)`
 - Stubs are a type of test double that don't have logic. They are meant to simulate real objects for a test scenario. 
 	- Example: we want to test if clients can receive mails. We create a stub mail receiver instead of using a real email address.
 
-Let's try testing the scenario above without using Mockito:
+- Stubs give the advantage of control. By creating stubs, we can control effects from outer components and always get deterministic results.
+- Stubs minimize costs in many scenarios.
+- Stubs can save a lot of programming effort and keep code at a minimum. Check out this example:
 
 ```Java
-@Test
-@DisplayName("Sends a mail on a hot day")
-void test_1() {
-	// Arrange
-	ForecastServer fakeWeather = () -> 30;
-	FakeSender fakeSender = new FakeSender();
-	CustomerRepository customerRepo = () -> List.of("me@you.com");
-	MarketingApp marketingApp = new MarketingApp(fakeWeather, 
-	fakeSender, customerRepo);
-	// Act
-	MarketingApp.sendMessage("Discounts on icecream!");
-	// Assert
-	assertThat(mailSender.mailsSent).isNotZero();
+interface CustomerRepository {
+	String getNextCustomer();
+	boolean iterationCompleted();
+	void addCustomer();
+	void resetIteration();
 }
 ```
 
-This can be shortened to:
+Creating a test double for this would mean that we have to create a class that implements all these methods. Mockito can shorten this process:
 
 ```Java
 @Test
-@DisplayName("Sends a mail on a hot day")
-void test_1() {
-	ForecastServer fakeWeather = () -> 30;
-	MarketingApp 
+void simple_test() {
+	CustomerRepository repo = mock(CustomerRepository.class):
+	when(repo.getNextCustomer()).thenReturn("John Doe");
+	when(repo.iterationCompleted()).thenReturn(false).thenReturn(true); // first call returns false, all others after true
+	// assertions here
 }
-
 ```
+
+Neat. We don't have to create a class `FakeRepository` and implement all the interface functions and THEN test.
+
+---
+## Dummies
+- Dummies are a type of test double that are used to pass as parameters.
+- Example: Mail server needs a `Location` to initialize.
+
+```Java
+	@Test
+	void test() {
+		Email email = new Email("abc@gmail.com");
+		MailServer server = new MailServer(email, mock(Location.class)) // Don't need a Location object!
+	}
+```
+---
+## Mocks
+- Mocks are basically stubs but smarter. Mocks contribute to the assert step in testing, while stubs don't.
+- Example: Let's use our repository from above to test a `MarketingApp` that uses a `MailSender`.
+
+```Java
+@Test
+@DisplayName("Sends two emails")
+void test() {
+	// arrange
+	CustomerRepository repo = mock(CustomerRepository.class):
+	when(repo.getNextCustomer()).thenReturn("me@you.com", "you@me.com");
+	when(repo.iterationCompleted()).thenReturn(false).thenReturn(true);
+	MailSender mailSender = mock(Mail.class);
+	MarketingApp marketingApp = new MarketingApp(repo, mailSender)
+	// act
+	marketingApp.doMarketing();
+	// assert
+	verify(mailSender).sendMail("me@you.com");
+	verify(mailSender).sendMail("you@me.com");
+	verifyNoMoreInteractions(mailSender); // makes sure that the mailSender doesn't have more interactions than the two above.
+}
+```
+
+- In the assertion step, the `verify()` method asserts that the `sendMail()` method was called in `doMarketing()` twice with the given parameters.
+
+```ad-note
+If the order matters, then we can use an `InOrder` and call the verify method through it to make sure assertions happen in the correct order.
+```
+Verification can get pretty interesting:
+
+```Java
+verify(mailSender, times(2)).sendMail(anyString());
+verify(mailSender, never()).sendMail("lmao@lmao.com");
+verify(mailSender, atLeastOnce()).sendMail(anyString());
+```
+
+The wonderful part is that the code is very readable. I bet you can guess what the code does without me having to explain it to you.
