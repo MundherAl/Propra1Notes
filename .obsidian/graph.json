@@ -11,63 +11,77 @@
       "query": "path:\"Propra/Notes/Week 1\"",
       "color": {
         "a": 1,
-        "rgb": 6084225
+        "rgb": 16770533
       }
     },
     {
       "query": "path:\"Propra/Notes/Week 2\"",
       "color": {
         "a": 1,
-        "rgb": 6055126
+        "rgb": 16698829
       }
     },
     {
       "query": "file:\"Learning Goals\"",
       "color": {
         "a": 1,
-        "rgb": 0
+        "rgb": 16760253
       }
     },
     {
       "query": "path:\"Propra/Notes/Week 3\"",
       "color": {
         "a": 1,
-        "rgb": 6403818
+        "rgb": 16754856
       }
     },
     {
       "query": "path:\"Propra/Notes/Week 4\"",
       "color": {
         "a": 1,
-        "rgb": 8206784
+        "rgb": 16749716
       }
     },
     {
       "query": "path:\"Propra/Notes/Week 5\"",
       "color": {
         "a": 1,
-        "rgb": 16743168
+        "rgb": 16683200
       }
     },
     {
       "query": "path:\"Propra/Notes/Week 6\"",
       "color": {
         "a": 1,
-        "rgb": 14396247
+        "rgb": 16739251
       }
     },
     {
       "query": "path:\"Propra/Notes/Week 7\"",
       "color": {
         "a": 1,
-        "rgb": 13123932
+        "rgb": 16449791
       }
     },
     {
       "query": "path:\"Propra/Notes/Week 8\"",
       "color": {
         "a": 1,
-        "rgb": 14048429
+        "rgb": 12398335
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 9\"",
+      "color": {
+        "a": 1,
+        "rgb": 6755583
+      }
+    },
+    {
+      "query": "path:\"Propra/Notes/Week 10\"",
+      "color": {
+        "a": 1,
+        "rgb": 3342591
       }
     }
   ],
@@ -81,6 +95,6 @@
   "repelStrength": 11.2281343329067,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.8854989543150492,
-  "close": true
+  "scale": 0.885498954315051,
+  "close": false
 }
