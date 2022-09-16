@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Propra/Notes/Week 10/Functional interfaces.md",
+            "file": "Propra/Notes/Week 10/Method References.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5,
-    "collapsed": true
+    "width": 209.5
   },
   "right": {
     "id": "37a03ff127527d16",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Propra/Notes/Week 10/Functional interfaces.md",
+                "file": "Propra/Notes/Week 10/Method References.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Propra/Notes/Week 10/Functional interfaces.md",
+                "file": "Propra/Notes/Week 10/Method References.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Propra/Notes/Week 10/Functional interfaces.md"
+                "file": "Propra/Notes/Week 10/Method References.md"
               }
             }
           }
@@ -131,15 +130,15 @@
   },
   "active": "352a70c8b322dbd3",
   "lastOpenFiles": [
-    "Propra/Notes/Week 1/Loops.md",
-    "Propra/Notes/Week 10/Functional interfaces.md",
-    "Propra/Notes/Week 10/Bug.md",
     "Propra/Notes/Week 10/Week 10.md",
-    "Propra/Learning Goals.md",
-    "Propra/Notes/Week 9/Week 9.md",
+    "Propra/Notes/Week 10/Functional interfaces.md",
+    "Propra/Notes/Week 10/Method References.md",
     "Propra/Notes/Week 9/Big and precise numbers.md",
-    "Propra/Notes/Week 2/Week 2.md",
-    "README.md",
-    "Propra/Notes/Week 9/Mockito.md"
+    "Propra/Notes/Week 9/Mockito.md",
+    "Propra/Notes/Week 9/Week 9.md",
+    "Propra/Learning Goals.md",
+    "Propra/Notes/Week 1/Loops.md",
+    "Propra/Notes/Week 10/Bug.md",
+    "Propra/Notes/Week 2/Week 2.md"
   ]
 }

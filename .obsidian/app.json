@@ -13,5 +13,6 @@
     "classpath",
     "enums",
     "Mockito"
-  ]
+  ],
+  "readableLineLength": false
 }

@@ -1,8 +1,9 @@
 # Week 10
 ---
 ## Learning Goals
-- [ ] Functional interfaces revisited 
-- [ ] Lambdas revisited
+- [x] Functional interfaces revisited 
+- [x] Lambdas revisited
+- [ ] Method References
 - [ ] Higher-order functions
 - [ ] Processing collections using streams
 - [ ] `Collector` Interface
@@ -11,7 +12,7 @@
 ---
 ## Content
 ### 1. [[Functional interfaces]]
-### 2.
+### 2. ****
 
 ---
 ## Notes

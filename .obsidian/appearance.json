@@ -1,4 +1,7 @@
 {
-  "theme": "moonstone",
-  "baseFontSize": 29
+  "theme": "obsidian",
+  "baseFontSize": 30,
+  "translucency": false,
+  "textFontFamily": "Calibri",
+  "cssTheme": "Obsidian Nord"
 }
