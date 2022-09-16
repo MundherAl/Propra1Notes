@@ -12,7 +12,8 @@
 ---
 ## Content
 ### 1. [[Functional interfaces]]
-### 2. ****
+### 2. [[Method References]]
+### 3. [[Higher Order Functions]]
 
 ---
 ## Notes

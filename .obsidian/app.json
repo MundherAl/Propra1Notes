@@ -12,7 +12,9 @@
     "gradle",
     "classpath",
     "enums",
-    "Mockito"
+    "Mockito",
+    "HOF",
+    "HOFs"
   ],
   "readableLineLength": false
 }
