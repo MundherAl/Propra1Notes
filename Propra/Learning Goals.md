@@ -56,4 +56,9 @@ Notes:
 ---
 ## [[Week 10]]
 Notes:
-- Something
+- Review `UnaryOperator`.
+- Write down what `map`, `filter` and `reduce` do.
+- Review `grouping()` collector.
+- Review parallel streams!
+- Review `optional`!
+---

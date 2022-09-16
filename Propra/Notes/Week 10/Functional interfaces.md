@@ -40,7 +40,7 @@ This a considered a subset of the `Function` interface.
 - `Supplier () -> a`
 	- Takes no parameters and returns `a`.
 ```Java
-Supplier tossCoin = () -> (int)(Math.random()) +1;
+Supplier tossCoin = () -> (int)(Math.random())+1;
 tossCoin.get(); // (maybe) 1
 tossCoin.get(); // (maybe) 0
 ```
