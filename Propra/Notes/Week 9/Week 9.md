@@ -1,15 +1,16 @@
 # Week 9
 ---
 ## Learning Goals
-- [ ] Test doubles
-	- [ ] Stubs
-	- [ ] Dummies
-	- [ ] Mocks
-- [ ] `BigDecimal`
-- [ ] `BigInteger`
+- [x] Test doubles
+	- [x] Stubs
+	- [x] Dummies
+	- [x] Mocks
+- [x] `BigDecimal`
+- [x] `BigInteger`
 ---
 ## Content
-### [Lorem]
+### 1. [[Mockito]]
+### 2. [[Big and precise numbers]]
 ---
 ## Notes
-- Something!
+- Add infos about test doubles on cheat sheet.
