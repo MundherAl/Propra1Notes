@@ -63,3 +63,56 @@ public static void main(String[] args) {
 BiFunction<String, LocalDate, Person> personFactory = Person::new;
 Person person = personFactory.apply("Kerry Marisa Washington", LocalDate.of(1977, 1, 31));
 ```
+---
+There are 3 very useful HOFs that are used widely. `map`, `filter` and `reduce`.
+## Map
+- The `map()` function takes a `Collection` `coll` and transforms it by performing a function `f` on every element `a`.
+
+Example:
+```Java
+List<Integer> numbers = list.Of(1,2,3);
+Function<Integer, Integer> square = e -> e^2;
+Collection<Integer> numbersSquared = map(square, numbers); // ==> [1,4,9]
+```
+
+- Implementation details:
+```Java
+public static <A, B> Collection<B> map(Function<A, B> f, Collection<A> coll) {
+  Collection<B> result = new ArrayList<>();
+  for (A a : coll) {
+    result.add(f.apply(a));
+  }
+  return result;
+}
+```
+```ad-question
+Why are `<A, B>` included before the return type?
+```
+
+## Filter
+- The `filter()` function takes a predicate `p` and returns the values of `Collection` `coll` that return a true on `p`.
+
+Example:
+```Java
+List<Integer> numbers = list.Of(1,2,3,4);
+Predicate<Integer> even = e -> e % 2 == 0;
+List<Integer> evenNumbers = filter(even, numbers); // ==> [2,4]
+```
+
+## Reduce
+- The `reduce()` function reduces a `Collection` `coll` to a single value by using a `BiFunction` `rf` and an initial value `init`. `init` is used as the first parameter in the first iteration of the function `rf`.
+- This only becomes intuitive in an example:
+```Java
+List<Integer> numbers = list.Of(2,3,4);
+BiFunction sum = (a, b) -> a + b;
+int initial = 1;
+int result = reduce(initial, sum, numbers); // 10
+```
+
+Summary of what happens internally:
+	1. `initial` is summed up with the first element of `numbers`. (1+2)
+	2. The previous sum is then summed up with the next element of `numbers`. (3+3)
+	3. The previous sum is again summed up with the next (and final) element of `numbers`. (6+4)
+	4. All elements of the collection `numbers` have been processed, and `reduce` now returns the result `10`. (6+4=10)
+
+---
