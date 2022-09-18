@@ -6,7 +6,7 @@
 - [ ] Enums
 ---
 ## Content
-### [[Testing]]
+### [[Propra/Notes/Week 3/Testing]]
 ### [[Organisizing Tests]]
 ### [[Enums]]
 ---
