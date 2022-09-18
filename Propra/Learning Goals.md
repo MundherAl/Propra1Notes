@@ -66,3 +66,10 @@ Notes:
 Notes:
 - Did not finish section on Spring!!
 ---
+## [[Week 12]]
+Notes:
+- Skipped section on `static` methods and attributes!
+---
+## [[Week 13]]
+Notes:
+- Nothing
