@@ -1,12 +1,15 @@
 # Week 12
 ---
 ## Learning Goals
-- [ ] Understanding the consequences of testing on coupling
-- [ ] Consequences of mock objects on coupling
-- [ ] Difference between static methods and attributes of instance methods
+- [x] Understanding the consequences of testing on coupling
+- [x] Consequences of mock objects on coupling
 ---
 ## Content
 ### 1. [[Coupling through testing]]
+### 2. [[Over-specification]]
+### 3. [[Test Duplication]]
+### 4. [[Mocking, revisited]]
+
 ---
 ## Notes
-- Something!
+- Section on `static` was skipped!

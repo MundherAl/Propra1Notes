@@ -13,5 +13,5 @@ void test() {
 }
 ```
 
-That is sort of like asking "does percent times value return percent times value?"
+That is sort of like asking, "does percent times value return percent times value?"
 That is a duplication that we want to avoid.
