@@ -16,3 +16,4 @@
 ### [[Generics]]
 ---
 ### Notes
+#goals

@@ -26,3 +26,4 @@
 - Review `grouping()` collector.
 - Review parallel streams!
 - Review `optional`!
+#goals

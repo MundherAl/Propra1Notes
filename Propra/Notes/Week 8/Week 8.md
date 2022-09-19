@@ -15,3 +15,4 @@
 ---
 ## Notes
 - java.time review is missing. #todo 
+#goals

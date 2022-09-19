@@ -72,4 +72,9 @@ Notes:
 ---
 ## [[Week 13]]
 Notes:
-- Nothing
+- Write down all code smells on cheat sheet.
+---
+## [[Week 14]]
+Notes:
+
+#home

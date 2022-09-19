@@ -12,3 +12,4 @@
 ---
 ## Notes
 - Multithreading was handled in the curriculum. It was skipped here.
+#goals

@@ -13,3 +13,4 @@
 ---
 ## Notes
 - Section on `static` was skipped!
+#goals

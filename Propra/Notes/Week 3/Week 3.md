@@ -12,3 +12,4 @@
 ---
 ## Notes
 Testing will be revisted in Test Driven Development and Mocking.
+#goals

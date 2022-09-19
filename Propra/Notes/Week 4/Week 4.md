@@ -16,3 +16,4 @@
 ---
 ## Notes
 Write a list of code smells in the cheat sheet.
+#goals
